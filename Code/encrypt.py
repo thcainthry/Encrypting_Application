@@ -5,3 +5,4 @@ import pyAesCrypt
 directory = os.getcwd()
 
 # Set the password that will be used to encrypt and decrypt the files
+password = "your_password"
