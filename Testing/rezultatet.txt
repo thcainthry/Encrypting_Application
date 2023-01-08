@@ -1,0 +1,1 @@
+Nese e ekzekutojme kodin nepermjet komandes: python3 emri_fajlit.py, do te shohim se te gjithe fajlat ne ate direktorium do te marrin prapashtesen .aes qe i bie se jane te enkriptuara me standardin e enkriptimin .aes.
