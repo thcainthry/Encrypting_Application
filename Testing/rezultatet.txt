@@ -1,1 +1,5 @@
+Fillimisht e krijojme direktoriumin ne te cilin deshirojme te punojme dhe vendosim disa file te zakonshem, ne rastin tone jane 4 file 2 file .txt dhe 2 .py ne te cilin edhe eshte aplikacioni: 
+
+
+
 Nese e ekzekutojme kodin nepermjet komandes: python3 emri_fajlit.py, do te shohim se te gjithe fajlat ne ate direktorium do te marrin prapashtesen .aes qe i bie se jane te enkriptuara me standardin e enkriptimin .aes.
