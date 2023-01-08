@@ -1,8 +1,16 @@
 import os
 import pyAesCrypt
 
-# Marrum direktorinë aktuale të punës (pra drejtoria ku ndodhet skripti)
+# Get the current working directory (the directory where the script is located)
 directory = os.getcwd()
 
-# Vendosum fjalëkalimin që do të përdoret për të kriptuar dhe deshifruar skedarët
+# Set the password that will be used to encrypt and decrypt the files
 password = "your_password"
+
+# Set the buffer size
+buffer_size = 64 * 1024
+
+# Iterate through all of the files in the directory
+for file in os.listdir(directory):
+    # Get the full path of the file
+    file_path = os.path.join(directory, file)
